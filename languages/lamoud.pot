@@ -1,0 +1,96 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lamoud 1.0.0\n"
+"POT-Creation-Date: 2021-09-20 18:09+0200\n"
+"PO-Revision-Date: 2021-04-01 23:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: info@lamoud.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__;esc_html_e;sprintf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/calc_form.php:5 includes/calc_form.php:10
+msgid "Day is required"
+msgstr ""
+
+#: includes/calc_form.php:17 includes/calc_form.php:22
+msgid "Month is required"
+msgstr ""
+
+#: includes/calc_form.php:29 includes/calc_form.php:34
+msgid "Year is required"
+msgstr ""
+
+#: includes/calc_form.php:61
+msgid "Day"
+msgstr ""
+
+#: includes/calc_form.php:72
+msgid "Month"
+msgstr ""
+
+#: includes/calc_form.php:83
+msgid "Year"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Saturday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Sunday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Monday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Tuesday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Wednesday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Thursday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:61
+msgid "Friday"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:81
+msgid "Your last cyle started on "
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:84
+msgid "Your due date is "
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:95
+msgid "1st Trimester"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:97
+#: includes/khsousy_pergnancy_content.php:103
+#: includes/khsousy_pergnancy_content.php:109
+msgid "Start: "
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:101
+msgid "2nd Trimester"
+msgstr ""
+
+#: includes/khsousy_pergnancy_content.php:107
+msgid "3rd Trimester"
+msgstr ""

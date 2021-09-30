@@ -1,0 +1,266 @@
+:root {
+    --main-color: #1a3a4d;
+    --second-color: #00a8e9;
+    --main-background: #e8f1f2;
+    --border-color: #e2e5f1;
+    --calender-month: #e04a3a;
+    --succes-background: #4CAF50;
+}
+
+.lm-container-form {
+    background-color: #FFF;
+    margin: 15px;
+    padding: 30px 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    position: relative;
+}
+.lm-perg-form-head {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+span.lm-perg-creater {
+  font-size: 8px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.lm-container-form .lm-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lm-input{
+    width: calc(97%/4);
+}
+#submit-lm-calc{
+    width: 100%;
+    height: 42px;
+    background-color: var(--second-color);
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease,box-shadow .25s ease,opacity .25s ease;
+}
+.lm-container-form select {
+    padding-right: 30px;
+    background-position: right 10px top 50%;
+    background-size: auto 18px;
+    background-repeat: no-repeat;
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    padding: 0 15px;
+    max-width: 100%;
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==);
+}
+#submit-lm-calc:hover {
+    opacity: .7;
+}
+.p_day_err, .p_month_err, .p_year_err {
+  color: var(--calender-month);
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.lm_btn_save {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px auto auto;
+}
+.save_date, .lm-submit {
+    width: calc(100% / 3);
+}
+/*start progress*/
+.lm-alert-box {
+  border: 1px solid var(--calender-month);
+  border-left-width: 5px;
+  background: #eae4e4;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.lm-alert-box h4{
+  color: var(--calender-month);
+}
+.lm-progress{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    position: relative;
+}
+.lm-progress span.lm-prog{
+    background-color: var(--second-color);
+    height: 100%;
+    width: 0;
+    transition: all 3s ease;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.lm-progress .pers-flag {
+  width: 3px;
+  height: 60px;
+  background-color: var(--main-color);
+  position: absolute;
+  top: -32px;
+  transition: 3s ease;
+  left: 0;
+  opacity: 0;
+}
+.lm-progress .lm-prog-txt {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  opacity: .5;
+  font-size: 14px;
+}
+.lm-progress .pers-flag-text {
+  background-color: var(--calender-month);
+  position: absolute;
+  color: #fff;
+  width: 35px;
+  text-align: center;
+  top: -32px;
+  transition: 3s ease;
+  left: -36px;
+  opacity: 0;
+  font-size: 12px;
+}
+.lm-progress p.persentage{
+  display: none;
+}
+/*end progress*/
+.due-date-results{
+  background: #fff;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  box-shadow: 8px 8px 0 gray;
+  margin: 30px auto;
+  border-radius: 15px;
+  position: relative;
+  max-width: 350px;
+}
+.due-date-results-bin-right, 
+.due-date-results-bin-left {
+  position: absolute;
+  height: 45px;
+  width: 10px;
+  top: -25px;
+  background-color: var(--main-color);
+  border-bottom: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.due-date-results-bin-right {
+  right: 12.5%;
+}
+.due-date-results-bin-left {
+  left: 12.5%;
+}
+
+.due-date-results-month {
+  background-color: var(--calender-month);
+  padding: 15px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.due-date-results-year {
+  position: absolute;
+  top: 9px;
+  right: 41%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.due-date-results-day-text {
+  color: var(--main-color);
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.due-date-results-day {
+  padding: 15px;
+  color: var(--calender-month);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.lm-perg-dtls-container {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.lm-perg-dtls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.lm-perg-dtls:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.lm-perg-item, .lm-perg-value {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.lm-perg-value {
+  color: #5d5b5b;
+}
+
+.lm-perg-item {
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+
+span.lm-recalc-perg {
+  background: var(--second-color);
+  padding: 8px 40px;
+  border-radius: 5px;
+  display: block;
+  margin: 30px 0;
+  width: fit-content;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+span.lm-recalc-perg:hover {
+  opacity: 0.8;
+}
+
+  @media screen and (max-width: 768px) {
+    .lm-input {
+      flex: 100%;
+      margin: 8px auto;
+    }
+
+    .lm-perg-item, .lm-perg-value {
+      width: 100%;
+    }
+
+  }

@@ -1,0 +1,37 @@
+.lm-progress .pers-flag {
+    left: auto;
+    right: 0;
+}
+
+.lm-progress .pers-flag-text {
+    left: auto;
+    right: -36px;
+}
+.lm-progress span.lm-prog {
+
+    border-bottom-left-radius: unset;
+    border-top-left-radius: unset;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.due-date-results-year {
+    right: auto;
+    left: 41%;
+}
+.lm-perg-item {
+    border-right: none;
+    border-left: 1px solid #ccc;
+  }
+  .lm-alert-box {
+    border-left-width: 1px;
+    border-right-width: 5px;
+  }
+  .lm-days-left {
+    font-size: 12px;
+}
+span.lm-perg-creater {
+    right: auto;
+    left: 5px;
+  }
