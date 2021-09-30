@@ -186,12 +186,12 @@ $months = array(
             <div class="lm-perg-value"><?php echo date("d", $due) . ' ' . $months[date("M", $due)] . ' ' . date("Y", $due); ?></div>
         </div>
 
-    <span class="lm-perg-creater">
-        <?php echo __('Advanced Pregnancy Calculator By:', 'lamoud'); ?>
-        <a href="https://wa.me/00201062332549"><?php echo __(' Mahmoud Hassan ', 'lamoud') ?></a>
-        <?php echo __('sponsored by', 'lamoud'); ?>
-        <a href="https://tabeibweb.com"><?php echo __(' tabeibweb ', 'lamoud') ?></a>
-    </span>
+    <!--<span class="lm-perg-creater">
+        <?php //echo __('Advanced Pregnancy Calculator By:', 'lamoud'); ?>
+        <a href="https://wa.me/00201062332549"><?php //echo __(' Mahmoud Hassan ', 'lamoud') ?></a>
+        <?php //echo __('sponsored by', 'lamoud'); ?>
+        <a href="https://tabeibweb.com"><?php //echo __(' tabeibweb ', 'lamoud') ?></a>
+    </span>-->
 
     </div>
 
