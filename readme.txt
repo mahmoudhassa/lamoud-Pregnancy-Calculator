@@ -1,10 +1,10 @@
 === Plugin Name ===
 Donate link: https://lamoud.com/
 Tags: pregnancy calculator, pregnancy, due date, حاسبة الحمل, موعد الولادة
-Requires at least: 5
-Tested up to: 5
-Stable tag: 4.3
-Requires PHP: 7.0
+Requires at least: 4.9
+Tested up to: 5.8.1
+Stable tag: 1.0.0
+Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
